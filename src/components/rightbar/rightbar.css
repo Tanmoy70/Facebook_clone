@@ -1,0 +1,242 @@
+.rightbar {
+  flex: 1.5;
+  background-color: rgb(236, 234, 234);
+  overflow-y: scroll;
+  position: sticky;
+  height: calc(100vh - 62px);
+  top: 61px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 10px;
+}
+.rightbarWrapper {
+  margin: 20px 0 0 30px;
+}
+
+.rightbarTopText {
+  font-size: 20px;
+  color: rgb(113, 113, 113);
+}
+
+.rightbarTopfristImg {
+  margin-top: 20px;
+  width: 135px;
+  height: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.rightbarTopfristTextDiv {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.rightbarTopfristText {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0 0 10px;
+}
+
+.rightbarTopfristTextSecond {
+  padding: 5px 0 0 0;
+  color: rgb(161, 161, 161);
+}
+
+.rightbarTopfristHr {
+  margin: 20px 0 0 4px;
+  width: 95%;
+}
+
+.rightbarCenterFirstDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px 0 0;
+  font-size: 18px;
+}
+.rightbarCenterFristText1 {
+  color: rgb(90, 90, 90);
+}
+
+.rightbarCenterFristText {
+  padding-right: 7px;
+  color: blue;
+  font-size: 16px;
+}
+
+.rightbarCenterFirstImg {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rightbarCenterFirstFriend {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightbarCenterFirstImg {
+  padding-top: 15px;
+}
+
+.rightbarCenterFirstName {
+  padding: 20px 170px 0 0;
+}
+
+.rightbarCenterFirstTime {
+  padding: 20px 14px 0 0;
+  color: gray;
+}
+
+.rightbarCenterFirstMutual {
+  margin: -30px 0 0 75px;
+}
+
+.rightbarCenterFirstMutualImg {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.rightbarCenterFirstMutualTest {
+  display: flex;
+  font-size: 13px;
+  margin: -20px 0 0 42px;
+  color: gray;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 25px 0 45px;
+  margin: 10px 0 0 25px;
+}
+
+.btnFirst {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.btnSecond {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(175, 175, 175);
+}
+
+.centerFirstHr {
+  margin: 25px 0 0 4px;
+  width: 95%;
+}
+
+.centerSecondDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.centerSecondDivName {
+  margin-top: 15px;
+  font-size: 18px;
+  color: rgb(90, 90, 90);
+}
+
+.centerSecondDivContentImg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 3px;
+}
+
+.centerSecondDivContent {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.centerSecondDivContentText {
+  padding: 0 0 0 15px;
+  font-size: 17px;
+}
+
+.centerSecondDivHr {
+  margin: 20px 0 0 4px;
+  width: 95%;
+}
+
+.lastBottomDiv {
+  margin-top: 15px;
+}
+
+.lastBottomDivNavbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastBottomDivName {
+  font-size: 18px;
+  color: rgb(90, 90, 90);
+}
+
+.lastBottomDivIcons {
+  display: flex;
+}
+
+.lastBottomDivIcon {
+  padding-right: 20px;
+}
+
+.lastBottomDivContent {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 0px;
+}
+
+.lastBottomDivContentName {
+  margin-left: 13px;
+}
+
+.lastBottomDivContentImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lastBottomDivHr {
+  margin: 18px 0 18px 4px;
+  width: 95%;
+}
+
+.ICON {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 50%;
+}
+
+.lastBottomDivContent {
+  margin-bottom: 15px;
+}

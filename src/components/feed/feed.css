@@ -1,0 +1,175 @@
+.feed {
+  flex: 3;
+  background-color: rgb(236, 234, 234);
+}
+.topDivision {
+  background-color: white;
+  width: 77%;
+  height: 45%;
+  margin: 20px 120px;
+  border-radius: 10px;
+}
+
+.topDivisionIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 65px;
+}
+
+.topDivisionIcon {
+  display: flex;
+  align-items: center;
+}
+
+.FeedTopbarHr {
+  position: absolute;
+  width: 12%;
+  border: 2px solid blue;
+  margin: 60px 0 0 -47px;
+}
+
+.icontext {
+  padding-left: 8px;
+  font-size: 17px;
+}
+
+.topDivisionCenter {
+  display: flex;
+}
+
+.centerBox {
+  width: 19%;
+  background-color: white;
+  display: flex;
+  height: 29vh;
+  margin: 16px 1px 16px 10px;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 13px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centerBoxSecond {
+  width: 19%;
+  background-color: white;
+  height: 29vh;
+  margin: 16px 1px 16px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  list-style: none;
+}
+
+.centerBoxSecondImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid blue;
+  margin: 15px 0 0 15px;
+}
+
+.centerBoxTextSecond {
+  margin: 120px 0 0 10px;
+}
+
+.CenterBoxUI {
+  list-style: none;
+}
+
+.centerBoxLi {
+  margin-left: 3px;
+  margin-top: 8px;
+}
+
+.centerBoxLiIcon {
+  margin-top: 135px;
+  margin-left: 13px;
+}
+
+.centerBoxLiIconDiv {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.centerDivision {
+  background-color: white;
+  width: 77%;
+  height: 45%;
+  margin: 20px 120px;
+  border-radius: 10px;
+}
+
+.centerHr {
+  width: 94%;
+  margin-left: 20px;
+}
+
+.centerDivImg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 10px;
+}
+.top {
+  display: flex;
+  padding: 12px 11px;
+}
+
+.inputText {
+  border-radius: 50px;
+  width: 90%;
+  border: none;
+  background-color: rgb(222, 220, 220);
+  font-size: 15px;
+  padding: 12px;
+}
+
+.inputText:focus {
+  outline: none;
+}
+
+.bottomIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.bottomIconF {
+  display: flex;
+  align-items: center;
+}
+
+.bottomIconsText {
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .topDivision {
+    background-color: white;
+    width: 96%;
+    height: 45%;
+    margin: 25px 10px 0 10px;
+    border-radius: 10px;
+  }
+  .centerDivision {
+    background-color: white;
+    width: 96%;
+    height: 45%;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+}
